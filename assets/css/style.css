@@ -77,3 +77,8 @@ button:hover {
 .stats button:hover{
     background-color: #ddd;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
