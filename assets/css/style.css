@@ -36,7 +36,6 @@ p {
     flex-direction: column;
     padding: 10px;
     margin: 10px;
-    width: 50%;
     border-radius: 20px;
     background-color: #075e54;
 }
@@ -68,6 +67,7 @@ button:hover {
 
 .stats button {
     padding: 8px 16px;
+    margin: 10px;
     font-size: 14px;
     border: none;
     border-radius: 4px;
