@@ -4,6 +4,7 @@
     box-sizing: border-box;
     transition: all .1s cubic-bezier(.64,-0.58,.31,1.5);
 }
+
 body {
     font-family: "Roboto", serif;
     color: 	#25D366;
@@ -42,14 +43,13 @@ p {
 
 .logo p {
     display: block;
-    margin-bottom: 10px; /* Adjust spacing as needed */
+    margin-bottom: 10px;
 }
 
 button {
     padding: 20px;
     background-color: #075e54;
     color: #ece5dd;
-    transition-duration: 0.1s;
     border-radius: 15px;
     cursor: pointer;
 }
@@ -58,7 +58,6 @@ button:hover {
     background-color: #ece5dd;
     color: #25D366;
 }
-
 
 .stats {
     display: flex;
@@ -71,7 +70,7 @@ button:hover {
     font-size: 14px;
     border: none;
     border-radius: 4px;
-    background-color: #f0f0f0;
+    background-color: #25D366;
     cursor: pointer;
 }
 
