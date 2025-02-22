@@ -1,23 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=thumb_down" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>WhatsNote</title>
 </head>
+
 <body>
-    
+
     <header>
         <a href="./upload.html">Upload new note</a>
-        <div class = "logo">
-            <p>WhatsNote</p>
-            <p></p>
-            <p></p>
-            <p>Title: <span id = "extracted-title">[Extracted Title Here]</span></p>
-            <p>Author: <span id = "extracted-author">[Extracted Author Here]</span></p>
-            <p>Description here: </p>
+        <div class="logo">
+            <div class="'posts">
+                <div class="post">
+                <p>WhatsNote</p>
+                <p>Title: <span id="extracted-title">[Extracted Title Here]</span></p>
+                <p></p>
+                <p>Author: <span id="extracted-author">[Extracted Author Here]</span></p>
+                <p></p>
+                <p>Description here: </p>
+                </div>
+            </div>
+            <div class="stats">
+                <button>
+                    <p>Download: <span id="extracted-downloads">[Downloads Here]</span></p>
+                </button>
+                <div class="wrapper">
+                    <button>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-thumbs-down"></i>  <!-- Font Awesome thumbs-down -->
+                    </button>
+                </div>
+                <!-- <p>Upvotes: <span id="extracted-upvotes">[Upvotes Here]</span></p>
+                <p>Downvotes: <span class="material-symbols-outlined">thumb_down</span>[Downvotes Here]</span></p> -->
+            </div>
+        </div>
+    </header>
+<<<<<<< HEAD
+
+    <div class="posts">
+        <div class="post">
+            <div class="info">
+                <p>Title: <span id = "extracted-title">[Extracted Title Here]</span></p>
+                <p>Author: <span id = "extracted-author">[Extracted Author Here]</span></p>
+                <p>Description here: </p>
+            </div>
             <div class="stats">
                 <button><p>Download: <span id = "extracted-downloads">[Downloads Here]</span></p></button>
                 <div class="wrapper">
@@ -26,21 +58,28 @@
                         <label for="like">
                             <i class="fa-solid fa-thumbs-up"></i>"></i>
                         </label>
-                    </div>
-                    <div class="radio_group">
+                    </dive>
+                    <dive class="radio_group">
                         <input type="radio" name="like">
                         <label for="like">
-                            <img>
+                            <i class="fa-solid fa-thumbs-down"></i>
                         </label>
                     </div>
                 </div>
-                <button><p>Upvotes: <span id = "extracted-upvotes">[Upvotes Here]</span></p></button>
-                <button> <p>Downvotes: <span class="material-symbols-outlined">thumb_down</span>[Downvotes Here]</span></p></button>
             </div>
         </div>
     </header>
+                <button>Download: <span id = "extracted-downloads">[Downloads Here]</span></button>
+                <button><span class="material-symbols-outlined">thumb_up</span></button>
+                <button> <span class="material-symbols-outlined">thumb_down</span></button>
+            </div>
+        </div>
+    </div>
+=======
     <main>
         <div class="uploaded-docs"></div>
     </main>
+>>>>>>> 7a7da16b0463101a93056a9bebb384700cfa1867
 </body>
+
 </html>
