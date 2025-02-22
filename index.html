@@ -3,19 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fontawesome.com/icons/thumbs-up?f=classic&s=solid" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=thumb_up" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=thumb_down" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Document</title>
+
+    <style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+    </style>
 </head>
 <body>
     
     <header>
         <div class = "logo">
-            <p>WhatsNote</p>
-            <p></p>
-            <p></p>
-            <p>Title: <span id = "extracted-title">[Extracted Title Here]</span></p>
-            <p>Author: <span id = "extracted-author">[Extracted Author Here]</span></p>
-            <p>Description here: </p>
+            <h1>WhatsNote</h1>
+        </div>
+    </header>
+
+    <div class="posts">
+        <div class="post">
+            <div class="info">
+                <p>Title: <span id = "extracted-title">[Extracted Title Here]</span></p>
+                <p>Author: <span id = "extracted-author">[Extracted Author Here]</span></p>
+                <p>Description here: </p>
+            </div>
             <div class="stats">
                 <button><p>Download: <span id = "extracted-downloads">[Downloads Here]</span></p></button>
                 <div class="wrapper">
@@ -35,5 +52,13 @@
             </div>
         </div>
     </header>
+                <button>Download: <span id = "extracted-downloads">[Downloads Here]</span></button>
+                <button>Upvotes: <span class="material-symbols-outlined">thumb_up</span></button>
+                <button>Downvotes: <span class="material-symbols-outlined">thumb_down</span></button>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>

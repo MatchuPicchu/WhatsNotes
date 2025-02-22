@@ -2,8 +2,8 @@
 
 body {
     font-family: "Roboto", serif;
-    color: 	#ece5dd;
-    background-color: #25D366;
+    color: 	#25D366;
+    background-color: #ece5dd;
 }
 
 h1 {
@@ -16,6 +16,10 @@ div {
     justify-content: center;
 }
 
+p {
+    color: #ece5dd;
+}
+
 .posts {
     display: flex;
     flex-direction: column;
@@ -24,22 +28,25 @@ div {
 }
 
 .post {
+    display: flex;
+    flex-direction: column;
     padding: 10px;
     margin: 10px;
     width: 50%;
-    border: thick double #25D366;
     border-radius: 20px;
     background-color: #075e54;
 }
 
 button {
+    padding: 20px;
     background-color: #075e54;
     color: #ece5dd;
     transition-duration: 0.1s;
+    border-radius: 15px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #075e54;
-    color: #ece5dd;
+    background-color: #ece5dd;
+    color: #25D366;
 }
