@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    box-sizing: border-box;
+    transition: all .1s cubic-bezier(.64,-0.58,.31,1.5);
+}
 body {
     font-family: "Roboto", serif;
     color: 	#25D366;
@@ -17,7 +21,7 @@ div {
 }
 
 p {
-    color: #ece5dd;
+    color: #150c02;
 }
 
 .posts {
@@ -35,6 +39,11 @@ p {
     width: 50%;
     border-radius: 20px;
     background-color: #075e54;
+}
+
+.logo p {
+    display: block;
+    margin-bottom: 10px; /* Adjust spacing as needed */
 }
 
 button {
@@ -68,4 +77,8 @@ button:hover {
 
 .stats button:hover{
     background-color: #ddd;
+}
+
+.fa-solid{
+    font-size: 30px;
 }
