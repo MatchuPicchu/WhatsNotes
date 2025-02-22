@@ -5,9 +5,15 @@
     transition: all .1s cubic-bezier(.64,-0.58,.31,1.5);
 }
 body {
+    height: 100dvh;
     font-family: "Roboto", serif;
     color: 	#25D366;
-    background-color: #ece5dd;
+    background: url('https://images.unsplash.com/photo-1616628254015-5b6ddfc8f116?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') #ece5dd no-repeat center center;
+    background-size: cover;
+}
+
+header {
+    height: 80px;
 }
 
 h1 {
@@ -16,29 +22,50 @@ h1 {
 }
 
 div {
-    display: flex;
     justify-content: center;
+}
+
+.container {
+    width: min(100% - 30px, 1200px);
+    margin-inline: auto;
 }
 
 p {
     color: #150c02;
 }
 
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
 .posts {
     display: flex;
-    flex-direction: column;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
 
 .post {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+    padding: 30px 20px;
     margin: 10px;
-    width: 50%;
+    width: 600px;
     border-radius: 20px;
     background-color: #075e54;
+}
+
+#download-btn {
+    background-color: #075e54;
+    padding: 0 8px;
+    height: 42px;
+}
+
+#download-btn p {
+    color: #fff;
+    font-weight: 700;
 }
 
 .logo p {
@@ -57,7 +84,6 @@ button {
 
 button:hover {
     background-color: #ece5dd;
-    color: #25D366;
 }
 
 
@@ -71,10 +97,18 @@ button:hover {
     font-size: 14px;
     border: none;
     border-radius: 4px;
-    background-color: #f0f0f0;
+    background-color: #fff;
     cursor: pointer;
 }
 
 .stats button:hover{
     background-color: #ddd;
+}
+
+.green:hover {
+    color: #25D366;
+}
+
+.red:hover {
+    color: red;
 }
