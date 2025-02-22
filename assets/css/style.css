@@ -78,7 +78,20 @@ button:hover {
     background-color: #ddd;
 }
 
-.container{
+.posts-section-wrapper{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.note-entry{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f1f1;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;
 }

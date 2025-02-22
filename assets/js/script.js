@@ -107,6 +107,14 @@ function loadPDFs() {
                 <p><strong>Description:</strong> ${note.description}</p>
                 <a href="${url}" download="${note.filename}">Download PDF</a>
                 <hr>
+                <div class="reaction-button-wrapper">
+                    <button>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                    </button>
+                </div>
             `;
 
             notesFeed.appendChild(noteContainer);
