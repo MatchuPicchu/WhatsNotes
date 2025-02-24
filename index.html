@@ -4,37 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="./assets/js/script.js" defer></script>
-    <title>WhatsNote</title>
+    <title>WhatsNotes</title>
 </head>
 
-<body>
+<body class="main-container">
     <header>
-        <a href="./upload.html">Upload new note</a>
-        <div class="container">
-            <div class="logo">
-                <div class="posts">
-                    <div class="post">
-                    <p>WhatsNote</p>
-                    <p>Title: <span id="extracted-title">[Extracted Title Here]</span></p>
-                    <p></p>
-                    <p>Author: <span id="extracted-author">[Extracted Author Here]</span></p>
-                    <p></p>
-                    <p>Description here: </p>
-                    </div>
-                </div>
-                <div class="stats">
-                    <button>
-                        <p>Download: <span id="extracted-downloads">[Downloads Here]</span></p>
-                    </button>
-                </div>
-            </div>
-        </div>
+        <img src="./assets/img/favicon.png" class="logo" alt="WhatsNote Logo">
+        <h1>WhatsNotes</h1>
     </header>
     <main>
+        <a href="./upload.html">Upload new note</a>
+        <div class="container">
+        </div>
         <div class="uploaded-docs container posts-section-wrapper"></div>
     </main>
 </body>
+
 </html>

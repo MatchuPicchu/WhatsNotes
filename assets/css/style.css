@@ -9,6 +9,11 @@ body {
     font-family: "Roboto", serif;
     color: 	#25D366;
     background-color: #ece5dd;
+    margin: 0;
+}
+
+.main-container{
+
 }
 
 h1 {
@@ -41,9 +46,15 @@ p {
     background-color: #075e54;
 }
 
-.logo p {
-    display: block;
-    margin-bottom: 10px;
+header{
+    height: 70px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 100%;
+    width: 70px;
 }
 
 button {
